@@ -31,6 +31,13 @@ for (int i = 1; i < 100; i++)
     Console.WriteLine(word);
 }
 
+List<string> participantList = new List<string>();
+participantList.Add("Murat Albayraklıoğlu");
+
+
+
+
+
 string numberToWord(int number)
 {
     string[] onlar = { "", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan" };

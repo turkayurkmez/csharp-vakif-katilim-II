@@ -23,3 +23,18 @@ bool isCityExistsInCollection(string[] cities, string city)
 
 
 }
+
+bool isCityExistsInCollectionWithForeach(string[] cities, string city)
+{
+    foreach (var word in cities)
+    {
+        if (word == city)
+        {
+            return true;
+        }
+    }
+
+    return false;
+
+
+}

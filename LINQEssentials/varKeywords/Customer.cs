@@ -10,8 +10,12 @@
 
     public class CustomerService
     {
+
+
+
         public List<Customer> GetCustomers()
         {
+
             return new List<Customer>()
             {
                  new(){ Name="Ayhan", City="Mersin",  Email="ayhan@test.com"},
@@ -21,5 +25,7 @@
 
             };
         }
+
+
     }
 }
